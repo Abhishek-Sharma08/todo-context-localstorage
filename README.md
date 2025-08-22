@@ -25,7 +25,3 @@ This project demonstrates clean React architecture and the use of modern hooks.
 
 ---
 
-├── tailwind.config.js
-├── vite.config.js
-└── README.md
-
