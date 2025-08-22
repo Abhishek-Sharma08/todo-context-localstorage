@@ -12,7 +12,7 @@ This project demonstrates clean React architecture and the use of modern hooks.
 - 💾 Persistent storage using **LocalStorage**  
 - ⚡ Global state management with **React Context API**  
 - 🎨 Clean and responsive UI with TailwindCSS  
-- 🌓 Light & Dark theme support *(if included in your code)*
+
 
 ---
 
