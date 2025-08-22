@@ -25,12 +25,33 @@ This project demonstrates clean React architecture and the use of modern hooks.
 
 ---
 todo-context-localstorage/
-│── public/             # Static files
+│── public/                     # Static assets (favicon, images, etc.)
+│
 │── src/
-│   ├── components/     # Reusable UI components (TodoItem, TodoForm, etc.)
-│   ├── context/        # Context API setup
-│   ├── App.jsx         # Root component
-│   ├── main.jsx        # Entry point
-│── package.json
-│── README.md
+│   ├── assets/                 # Images, icons, etc.
+│   │
+│   ├── components/             # Reusable UI components
+│   │   ├── TodoForm.jsx        # Input form to add todos
+│   │   ├── TodoItem.jsx        # Single todo item
+│   │   ├── TodoList.jsx        # List of all todos
+│   │   └── ThemeToggle.jsx     # Button for light/dark theme (if included)
+│   │
+│   ├── context/                # Context API setup
+│   │   └── TodoContext.jsx     # Provides state & actions globally
+│   │
+│   ├── hooks/                  # Custom hooks
+│   │   └── useLocalStorage.js  # Hook for LocalStorage sync
+│   │
+│   ├── styles/                 # Global styles (if needed)
+│   │   └── globals.css
+│   │
+│   ├── App.jsx                 # Root component
+│   ├── main.jsx                # React entry point
+│   └── index.css               # TailwindCSS entry file
+│
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
 
